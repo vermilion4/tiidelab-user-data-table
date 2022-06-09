@@ -1,0 +1,73 @@
+/* Resetting the browser default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.heading{
+    margin: 10px 0;
+}
+
+#note{
+    margin-top: 10px;
+}
+
+/* SEARCH BOX SECTION */
+.search-section{
+    background-color: #439181;
+    padding: 10px;
+}
+
+#search{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+}
+
+.user-list-section{
+    margin-top: 20px;
+}
+
+li{
+    border: 1px solid #DDDDDD;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #F6F6F6;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 12px;
+}
+
+li:hover{
+    background-color: #EEEEEE;
+}
+
+/*Pill button for username*/
+.username{
+    background-color: #439181;
+    color: #FFFFFF;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* MEDIA QUERY FOR LARGE SCREENS */
+@media (min-width: 1000px){
+    body{
+        width: 50%;
+    }
+
+    li{
+        font-size: 14px;
+    }
+}
